@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(330, 100%, 98%);
+  margin: auto;
+  width: 40%;
+}
+
+.container-flex {
+  display: flex;
+  background-color: #fff;
+}
+
+.image-omelette {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.title-recipe {
+  font-weight: 300;
+}
+
+.details-about-recipe {
+  background-color: hsl(330, 100%, 98%);
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.details-recipe {
+  background-color: hsl(332, 51%, 32%);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.details-about-ingredients {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.details-about-instructions {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.details-about-nutrition {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+  border-collapse: separate;
+  box-sizing: border-box;
+}
+tr {
+  border-bottom: 1px solid;
+}
+
+td,
+th {
+  border-bottom: 1px solid;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 844px) {
+  body {
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .image-omelette {
+    border-radius: 0%;
+  }
+  .container-flex {
+    padding: 0;
+    border-radius: 0;
+  }
+}
